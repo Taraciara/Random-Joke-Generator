@@ -1,0 +1,15 @@
+# joke_generator.py
+
+import random
+
+jokes = [
+    "Why don't scientists trust atoms? Because they make up everything!",
+    "Why did the scarecrow win an award? Because he was outstanding in his field!",
+    "Why don't skeletons fight each other? They don't have the guts!"
+]
+
+def tell_joke():
+    return random.choice(jokes)
+
+# Sample usage
+print("Here's a joke for you:", tell_joke())
